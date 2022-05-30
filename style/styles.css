@@ -87,6 +87,7 @@
 h3 {
     color: #FF5551;
     margin-top: 2%;
+    cursor: pointer;
 }
 
 h2 {
@@ -94,6 +95,7 @@ h2 {
     text-align: center;
     margin-top: 3%;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .webdesign {
@@ -128,32 +130,36 @@ p {
     padding: 12px;
 }
 
+
 .icones-media {
     display: flex;
     margin-left: 60%;
-    height: 20px;
+    height: 20px;	
 }
 
 .icone-media-1 {
     margin-left: 12%;
+    cursor: pointer;
 }
 
 .icone-media-2 {
     margin-left: 12%;
+    cursor: pointer;
 }
 
 .icone-media-3 {
     margin-left: 12%;
+    cursor: pointer;
 }
 
 .image-page {
     width: 25px;
 }
 
-h1 {
+#h1 {
     color: rgb(60, 42, 76);
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     align-items: center;
 }
 
@@ -166,4 +172,12 @@ header{
 .image-page {
     max-width: 100px;
     align-items: center;
+}
+
+.container-main {
+    margin-top: -120px;
+}
+
+li {
+    cursor: pointer;
 }
